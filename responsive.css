@@ -1,0 +1,396 @@
+@media (max-width: 320px) {
+            :root {
+                --big-font: 3rem;
+                --h2-font: 2rem;
+                --p-font: 0.9rem;
+            }
+        
+            header {
+                padding: 12px 5%;
+            }
+        
+            .home {
+                padding: 120px 20px;
+                text-align: center;
+            }
+        
+            .home-text h1 {
+                font-size: 2.5rem;
+            }
+        
+            .home-text h3 {
+                font-size: 2rem;
+            }
+        
+            .home-text p {
+                font-size: var(--p-font);
+            }
+        
+            .girl1 {
+                display: none;
+             } /* Hide the image to save space */
+            
+        
+        .about {
+                padding: 100px 20px;
+                text-align: center;
+            }
+        
+            .about-img img {
+                width: 100%;
+                height: auto;
+            }
+        
+            .services-content {
+                grid-template-columns: 1fr;
+            }
+        
+            .portfolio-content {
+                display: grid;
+                grid-template-columns: 1fr; /* Single column layout */
+                gap: 1.5rem; /* Reduce gap for better spacing */
+                justify-content: center;
+                text-align: center;
+                padding: 0 10px; /* Avoids touching the screen edges */
+            }
+            .portfolio .main-text h2{
+              font-size: 2rem;
+            
+            }
+        
+            .row img {
+                width: 100%;
+                max-width: 280px; /* Prevents images from being too large */
+                margin: 0 auto; /* Centers the images */
+            }
+        
+            .layer {
+                padding: 10px; /* Reduce padding for small screens */
+            }
+        
+            .layer h5 {
+                font-size: 16px; /* Reduce font size for better fit */
+            }
+        
+            .layer p {
+                font-size: 14px;
+            }
+        
+            .layer i {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+        
+            .contact {
+                grid-template-columns: 1fr;
+                padding: 50px 20px;
+                text-align: center;
+            }
+        
+            .navlist {
+                position: absolute;
+                top: -1000px;
+                right: 0;
+                left: 0;
+                flex-direction: column;
+                background: var(--bg-color);
+                text-align: left;
+                transition: all 0.45s ease;
+            }
+        
+            .navlist a {
+                display: block;
+                margin: 10px;
+                font-size: 16px;
+                color: var(--text-color);
+            }
+        
+            .navlist.open {
+                top: 100%;
+            }
+        
+            #menu-icon {
+                display: block;
+            }
+        
+            .btn {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+        }
+
+
+        @media (min-width: 321px) and (max-width: 480px) {
+            .portfolio-content {
+                display: grid;
+                grid-template-columns: 1fr; /* Still single column for small screens */
+                gap: 2rem; /* Increase gap for better spacing */
+                justify-content: center;
+                text-align: center;
+                padding: 0 15px; /* Slightly more padding */
+            }
+        
+            .row img {
+                width: 100%;
+                max-width: 320px; /* Allow images to be slightly bigger */
+                margin: 0 auto; /* Centers the images */
+            }
+        
+            .layer {
+                padding: 15px; /* Adjust padding */
+            }
+        
+            .layer h5 {
+                font-size: 18px; /* Slightly larger font */
+            }
+        
+            .layer p {
+                font-size: 15px;
+            }
+        
+            .layer i {
+                width: 50px;
+                height: 50px;
+                font-size: 18px;
+            }
+            .portfolio .main-text h2{
+                font-size: 2.5rem;
+              
+              }
+        }
+@media (max-width: 767px){
+header {
+        padding: 0 20px;
+        max-width: 100%;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    header .menu ul {
+        display: none;
+    }
+    
+    header .menu .bx.bx-menu span {
+        background: #fff;
+        width: 100%;
+        display: block;
+        height: 2px;
+    }
+    
+    #menu-icon {
+        display: block;
+    }
+    
+    .home {
+        padding: 100px 20px;
+    }
+    
+    .about {
+        padding: 50px 20px;
+        display: block;
+    }
+    
+    section {
+        padding: 50px 20px;
+    }
+    
+    .services-content {
+            display: block;
+            margin-top: 3rem;
+    }
+    
+    .services-content .box {
+        margin: 0 0 20px 0;
+        display: block;
+    
+            padding: 20px;
+    }
+    
+    .about-img img {
+        width: 100%;
+    }
+    
+    .contact {
+        display: block;
+    }
+    header .menu ul.open {
+        display: block;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        background: #000000a3;
+        padding: 10px 0 10px 0;
+        top: 56px;
+    }
+    
+    header .menu ul.open li {
+        border-bottom: 1px solid #ccc;
+        padding: 5px 20px;
+    }
+    
+    header .menu ul.open li a {
+        padding: 10px 0;
+        margin: 0;
+        display: block;
+    }
+    
+    header .menu ul.open li:last-child {
+        border-bottom: none;
+    }
+    .girl1 img{
+        display: none;
+    }
+     }
+        
+    
+     @media (min-width: 768px) and (max-width: 991px) {
+            :root {
+                --big-font: 3.5rem;
+                --h2-font: 2rem;
+                --p-font: 0.95rem;
+            }
+        
+            header {
+                padding: 12px 1%;
+            }
+        
+            .home {
+                padding: 120px 5%;
+            }
+        
+            .home-text h1 {
+                font-size: 3rem;
+            }
+        
+            .home-text h3 {
+                font-size: 2rem;
+            }
+        
+            .girl1 {
+                display: none; /* Hide the large image */
+            }
+        
+            .about {
+                padding: 80px 5%;
+                text-align: center;
+            }
+        
+            .about-img img {
+                width: 90%;
+            }
+        
+            .portfolio-content {
+                grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            }
+            .services-content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+                align-items: center; /* Ensures all boxes have the same height */
+                gap: 2.5rem;
+                justify-content: center;
+            }
+            .box{
+                width: 100%;
+                height: 100%;
+            }
+        
+            .box:nth-child(3) {
+                grid-column: span 2; /* Forces the third box to be centered */
+                justify-self: center;
+                width: 100%; /* Makes it smaller than full width */
+            }
+        
+
+        
+            .contact {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+       
+        @media (min-width: 992px) and (max-width:1024px){
+            .services-content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* 3 columns */
+                gap: 2rem;
+                justify-content: center;
+            }
+            .box{
+                width: 100%;
+                height: 100%;
+            }
+        
+            .box:nth-child(3) {
+                grid-column: span 2; /* Moves the third box to the middle column */
+                justify-self: center;
+            }
+        }
+
+
+         @media (max-width: 1440px) {
+            .container {
+                max-width: 1100px;
+            }
+        
+            section {
+                padding: 140px 10%;
+            }
+        
+            .home {
+                padding: 150px 10%;
+            }
+        }
+        
+        /* Laptops & small desktops (1024px - 1439px) */
+        @media (min-width: 1025px){
+            :root {
+                --big-font: 4rem;
+                --h2-font: 2.5rem;
+                --p-font: 1rem;
+            }
+        
+            header {
+                padding: 15px 10%;
+            }
+        
+            .home {
+                padding: 130px 8%;
+            }
+        
+            .about {
+                padding: 100px 8%;
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            .about-img img {
+                width: 80%;
+            }
+            .services-content {
+                grid-template-columns: repeat(3, 1fr); /* Ensure 3 equal columns */
+                gap: 2.5rem;
+            }
+        
+            .box {
+                width: 100%; /* Full width inside grid */
+            }
+        
+            .box:nth-child(3) {
+                grid-column: auto; /* Reset any previous centering */
+            }
+        
+            /* .services-content {
+                grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+                justify-content: center;
+                align-items: center;
+            } */
+            
+        
+            .portfolio-content {
+                grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+            }
+        }
+        
+        
