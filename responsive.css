@@ -159,7 +159,7 @@
               
               }
         }
-@media (max-width: 767px){
+@media (max-width: 768px){
 header {
         padding: 0 20px;
         max-width: 100%;
@@ -274,12 +274,9 @@ header {
         
             .about {
                 padding: 80px 5%;
-                text-align: center;
+/*                 text-align: center; */
             }
         
-            .about-img img {
-                width: 90%;
-            }
         
             .portfolio-content {
                 grid-template-columns: repeat(auto-fit, minmax(250px, auto));
