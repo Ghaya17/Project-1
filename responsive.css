@@ -276,7 +276,9 @@ header {
                 padding: 80px 5%;
 /*                 text-align: center; */
             }
-        
+             .about-img img {
+        width: 100%;
+    }
         
             .portfolio-content {
                 grid-template-columns: repeat(auto-fit, minmax(250px, auto));
